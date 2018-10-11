@@ -1,16 +1,38 @@
 
-
-
-
 # Hello! These are all the (potential) exercises for the Python workshop.
 #To test any code, uncomment between the ~ lines and run.
 #Make sure to comment out the code lines when you want to test another section
 #so the exercies don't overlap or conflit.  
 
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#ice breaker exercise
+# def hello(name):
+#   print("Hello my name is " + name)
 
 
+# hello('paul')
+# 
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# def perimeter(length, width, color="red"):
+#   perim = (length*2)+(width*2)
+#   print("The perimeter of the rectangle is " +  str(perim))
+#   print("It's color is " + color + "!")
+#   if length == width:
+#     print("This rectangle is a square!")
+
+# perimeter(4,4)
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# def odd_even(num):
+#   if (num % 2) == 1:
+#     print(str(num) + " is an odd number!")
+#   elif (num % 2) == 0:
+#     print(str(num) + " is an even number!")
+#   else:
+#     print("how did you get here..?")
+
+# odd_even(19)
 
 # Madlib string game!
 # ask for user input and generate a story
@@ -103,3 +125,4 @@
 #   count += float(num)
 #   num =input("Enter a number:")
 # print("The total sum is: " + str(count))
+#
